@@ -29,16 +29,14 @@ li{
     line-height: 21px;
 
 }
-hr{
+.nav-link>hr{
     border: none;
 }
 .active>hr{
     border-top: 2px solid #6C19F6;
     margin-top: 0;
 }
-#nav-link:active{
-    color: turquoise;
-}
+
 /* *****Header content *****/
 .header-content-title{
     font-weight: 500;
