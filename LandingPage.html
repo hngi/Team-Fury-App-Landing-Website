@@ -9,6 +9,10 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="/styles/bootstrap.css">
    <link rel="stylesheet" href="/styles/LandingPage.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
    
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -62,19 +66,33 @@
         <!-- Header content Start Here -->
         <div class="row align-items-center header-content ">
                 <div class="col-lg-6 ">
-                    <h1 class="header-content-title mb-4">
+                    <h1 class="header-content-title mb-4 
+                    animate__animated
+                    animate__fadeInDown
+                    ">
                         Get all your tasks done with Zuri App
                     </h1>
-                    <p class="header-content-text mb-4">
+                    <p class="header-content-text mb-4
+                    animate__animated
+                    animate__fadeInLeft
+                    animate__delay-1s"
+                    >
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et
                          dolore 
                         magna aliqua.
                     </p>
-                    <button class="btn btn-header">Download</button>
+                    <button class="btn btn-header
+                    animate__animated
+                    animate__fadeInLeft
+                    animate__delay-1s
+                    ">Download</button>
                 </div>
-                <div class="col-lg-6 elipse position-relative">
+                <div class="col-lg-6 elipse position-relative  
+                animate__animated
+                animate__fadeInDown
+                animate__delay-2s">
                         <img src="/img/iPhoneX-1.png" class=" img-fluid elipse-image1 " alt="Responsive image">
 
                     <img src="/img/iPhoneX.png" class="img-fluid elipse-image2" alt="Responsive image">
@@ -87,20 +105,22 @@
         <section id="features" class="container features my-5">
             <h2 class="features-title text-center my-5">Some of the features of our app</h2>
             <!-- cards features -->
-            <div class="row justify-content-between mt-5 ">
-                <div class="col-lg-6 px-md-5 mb-2">
-                    <div class="feature-card d-flex ">
+            <div class="row justify-content-between mt-5 scroll-animations ">
+                <div class="col-lg-6 px-md-5 mb-2  animate__animated  ">
+                    <div class="feature-card d-flex  ">
                         <div class="card-img">
                             <img src="/img/icons8-unlock-50.png"/>
                         </div>
-                        <div class="card-info">
+                        <div class="card-info
+                        
+                        ">
                             <h3>Open souce</h3>
                             <p>Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 px-md-5 mb-2">
+                <div class="col-lg-6 px-md-5 mb-2 animate__animated">
                     <div class="feature-card d-flex ">
                         <div class="card-img">
                             <img src="/img/icons8-iphone-50.png"/>
@@ -113,8 +133,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row  justify-content-between my-lg-5">
-                <div class="col-lg-6 px-md-5 mb-2 ">
+            <div class="row  justify-content-between my-lg-5 scroll-animations">
+                <div class="col-lg-6 px-md-5 mb-2 animate__animated ">
                     <div class="feature-card d-flex ">
                         <div class="card-img">
                             <img src="/img/icons8-connect-50 3.png"/>
@@ -126,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 px-md-5 mb-2">
+                <div class="col-lg-6 px-md-5 mb-2 animate__animated">
                     <div class="feature-card d-flex ">
                         <div class="card-img">
                             <img src="/img/icons8-security-configuration-50.png"/>
@@ -150,13 +170,13 @@
                       qui officia deserunt mollit anim id est laborum..</p>
              </div>
              <!-- screenshot main -->
-             <div class="row d-flex  py-5 mx-3 justify-content-center">
+             <div class="row d-flex  py-5 mx-3 justify-content-center scroll-animations  ">
             
-                <img class="p-1" src="/img/iPhoneX-scrn (1).png" alt="" >
-                <img class="p-1" src="/img/iPhoneX-scrn (2).png" alt="">
-                <img class="p-1" src="/img/iPhoneX-scrn (3).png" alt="">
-                <img class="p-1" src="/img/iPhoneX-scrn (4).png" alt="">
-                <img class="p-1" src="/img/iPhoneX-scrn (5).png" alt="">
+                <img class="p-1 animate__animated" src="/img/iPhoneX-scrn (1).png" alt="" >
+                <img class="p-1 animate__animated" src="/img/iPhoneX-scrn (2).png" alt="">
+                <img class="p-1 animate__animated" src="/img/iPhoneX-scrn (3).png" alt="">
+                <img class="p-1 animate__animated" src="/img/iPhoneX-scrn (4).png" alt="">
+                <img class="p-1 animate__animated" src="/img/iPhoneX-scrn (5).png" alt="">
 
              </div>
         </section>
@@ -383,10 +403,14 @@
    <script src="/js/bootstrap-js/popper.js"></script>
    <script src="/js/bootstrap-js/jquery.js"></script>
    <script src="/js/bootstrap-js/bootstrap.js"></script>
-   <script>$('.nav-link').click(function() {
+   <script src="/js/custom-js/animateVP.js"></script>
+   <script>
+    $('.nav-link').click(function() {
     $('.nav-link').removeClass("active");
     $('li.nav-item.active').removeClass("active");
     $(this).addClass("active");
-  });</script>
+     });
+  </script>
+
 </body>
 </html>
