@@ -38,6 +38,9 @@ li{
 }
 
 /* *****Header content *****/
+.header-content{
+    margin-top: 7rem;
+}
 .header-content-title{
     font-weight: 500;
     font-size: 50px;
@@ -62,15 +65,15 @@ li{
 }
 .elipse{
     margin: 1rem auto;
-    width: 550px;
-    height: 520px;
-    background: #C4C4C4;
+    max-width: 520px;
+    height: 500px;
+    background: rgba(118, 39, 249, 0.25);
     clip-path: ellipse(49% 48% at 50% 50%);
 }
 .elipse-image1{
     position: absolute;
     top: 35%;
-    left: 16%;
+    left: 12%;
     height: 65%;
 }
 .elipse-image2{
@@ -296,6 +299,9 @@ li{
         width: 450px;
         height: 420px;
 
+    }
+    .elipse-image1{
+        left: 16%;
     }
 }
 @media only screen and (max-width : 480px){
