@@ -1,0 +1,68 @@
+.elipse-feature{
+    margin: 3rem auto;
+    max-width: 520px;
+    height: 500px;
+    background: rgba(118, 39, 249, 0.25);
+    clip-path: ellipse(49% 48% at 50% 50%);
+    margin-right: -4vw;
+    margin-top: -10vh;
+}
+.elipse-image1-feature{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    height: 65%;
+}
+.elipse-image2-feature{
+    position: absolute;
+    top: 20%;
+    right: 17%;
+    height: 75%;
+}
+.feature-card{
+    width: 20vw;
+    height: 20vh;
+    background: #FBF9FF;
+    box-shadow: 0px 4px 6px rgba(73, 73, 73, 0.21);
+    border-radius: 10px;
+
+}
+.card-img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(180deg, rgba(158, 100, 255, 0.94) 0%, rgba(53, 3, 135, 0.94) 100%);
+    border-radius: 50%;
+   
+}
+.card-img>img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.card-info{
+    margin: auto 1rem;
+}
+.card-info>h3{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 1000;
+}
+.card-info>p{
+    font-size: 12px;
+    line-height: 12px;
+    color: #807E7E;
+}
+.services-card > img{
+    border-radius: 50px;
+    margin-left: 5vw;
+}
+.services-header-feature{
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 37px;
+    margin-left: 5vw;
+    margin-top: 20vh;
+ 
+}
