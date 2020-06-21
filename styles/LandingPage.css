@@ -313,6 +313,14 @@ li{
         height: 320px;
 
     }
+    .card-img{
+    
+        margin: auto 1rem;
+  
+    }
+    .card-info{
+        margin: auto .5rem;
+    }
 }
 @media only screen and (max-width : 350px){
  
